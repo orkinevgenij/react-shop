@@ -1,6 +1,6 @@
 {
-  "name": "react-mag",
-  "homepage": "https://github.com/orkinevgenij/react-shop",
+  "name": "react-shop",
+  "homepage": "https://orkinevgenij.github.io/react-shop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

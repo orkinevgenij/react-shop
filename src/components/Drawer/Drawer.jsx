@@ -78,7 +78,7 @@ export const Drawer = ({ onClose, onRemove, items = [], opened }) => {
                 ? `Ваш заказ #${orderId} скоро будет передан курьерской доставке`
                 : 'Добавьте хотя бы одну пару кросовок...'
             }
-            image={isOrderComplete ? '/img/complete.jpg' : '/img/empty-cart.jpg'}
+            image={isOrderComplete ? 'img/complete.jpg' : 'img/empty-cart.jpg'}
           />
         )}
         <div className="cartTotalBlock">
@@ -94,16 +94,18 @@ export const Drawer = ({ onClose, onRemove, items = [], opened }) => {
               <b>{Math.round(totalPrice * 0.05)} грн.</b>
             </li>
           </ul>
-          <button
-            disabled={isLoading}
-            onClick={onClickOrder}
-            className="greenButton">
-            Оформить заказ
-            <img
-              src="img/arrow.svg"
-              alt="Arrow"
-            />
-          </button>
+          {cartItems.length > 0 && (
+            <button
+              disabled={isLoading}
+              onClick={onClickOrder}
+              className="greenButton">
+              Оформить заказ
+              <img
+                src="img/arrow.svg"
+                alt="Arrow"
+              />
+            </button>
+          )}
         </div>
       </div>
     </div>
