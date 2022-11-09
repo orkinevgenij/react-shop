@@ -42,7 +42,7 @@ export const Drawer = ({ onClose, onRemove, items = [], opened }) => {
           <img
             onClick={onClose}
             className="removeBtn cu-p"
-            src="/img/btn-remove.svg"
+            src="img/btn-remove.svg"
             alt="Close"
           />
         </h3>
@@ -63,7 +63,7 @@ export const Drawer = ({ onClose, onRemove, items = [], opened }) => {
                   <img
                     onClick={() => onRemove(obj.id)}
                     className="removeBtn"
-                    src="/img/btn-remove.svg"
+                    src="img/btn-remove.svg"
                     alt="remove"
                   />
                 </div>
@@ -100,7 +100,7 @@ export const Drawer = ({ onClose, onRemove, items = [], opened }) => {
             className="greenButton">
             Оформить заказ
             <img
-              src="/img/arrow.svg"
+              src="img/arrow.svg"
               alt="Arrow"
             />
           </button>

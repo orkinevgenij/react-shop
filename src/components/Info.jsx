@@ -17,7 +17,7 @@ export const Info = ({ title, image, description }) => {
         onClick={() => setCartOpened(false)}
         className="greenButton">
         <img
-          src="/img/arrow.svg"
+          src="img/arrow.svg"
           alt="Arrow"
         />
         Вернуться назад
