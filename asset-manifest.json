@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/orkinevgenij/react-shop/static/css/main.d2975e83.css",
+    "main.js": "/orkinevgenij/react-shop/static/js/main.a94228ec.js",
+    "index.html": "/orkinevgenij/react-shop/index.html",
+    "main.d2975e83.css.map": "/orkinevgenij/react-shop/static/css/main.d2975e83.css.map",
+    "main.a94228ec.js.map": "/orkinevgenij/react-shop/static/js/main.a94228ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2975e83.css",
+    "static/js/main.a94228ec.js"
+  ]
+}
